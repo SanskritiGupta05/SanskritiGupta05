@@ -1,6 +1,6 @@
-# Sanskriti Gupta💻
+# Sanskriti Gupta (She/Her)👋🏻
 
-# About Me
+# About Me 👩🏻‍💻
 
 😄 I'm a 3rd year, Computer Science student from **India**.
 
@@ -14,17 +14,27 @@
 
 ✨ Learning & Growing are two main motives.
 
-# Languages used
+<!-- Langs -->
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SanskritiGupta05&layout=compact&theme=midnight-purple)](https://github.com/SanskritiGupta05/github-readme-stats)
+<h2 align="center">Languages used</h2>
 
-# I write blogs
+<p align="center" ><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SanskritiGupta05&layout=compact&theme=midnight-purple" /></p>
 
-## Checkout my Blogs On [![Hashnode](https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white)](https://sanskritigupta.hashnode.dev/)
-<br>
+<!-- Stats -->
+<h2 align="center">My Github stats</h2>
 
+<p align="center" ><img src="https://github-readme-stats.vercel.app/api?username=SanskritiGupta05&count_private=true&show_icons=true&theme=radical" /></p>
 
-# Connect with me
+<!-- Blogs -->
+<h2 align="center">Checkout my Technical Blogs!</h2>
+<p align="center">
+<a href="https://sanskritigupta.hashnode.dev/" rel="nofollow"><img src="https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white"/></a>
+</p>
 
+<!-- Connect -->
+<h1 align="center">Connect with me</h2>
+
+<p align="center">
 <a href="https://twitter.com/GuptaSanskritii" rel="nofollow"><img src="https://img.icons8.com/fluency/48/000000/twitter.png"/></a><a href="mailto:sanskritigupta0005@gmail.com">
 <img src="https://img.icons8.com/color/48/000000/gmail-new.png"/></a><a href="https://www.linkedin.com/in/sanskritiguptaa/"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a>
+</p>
