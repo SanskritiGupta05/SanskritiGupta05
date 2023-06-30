@@ -36,5 +36,5 @@
 
 <p align="center">
 <a href="https://twitter.com/GuptaSanskritii" rel="nofollow"><img src="https://img.icons8.com/fluency/48/000000/twitter.png"/></a><a href="mailto:sanskritigupta0005@gmail.com">
-<img src="https://img.icons8.com/color/48/000000/gmail-new.png"/></a><a href="https://www.linkedin.com/in/sanskritiguptaa/"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a>
+<img src="https://img.icons8.com/color/48/000000/gmail-new.png"/></a><a href="https://www.linkedin.com/in/sanskritiguptaa/"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a> <a href="https://linkfree.io/SanskritiGupta05"><img src="https://linkfree.io/_next/image?url=%2Flogo192.png&w=32&q=75"/></a>
 </p>
