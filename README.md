@@ -2,7 +2,7 @@
 
 # About Me 👩🏻‍💻
 
-😄 I'm a 3rd year, Computer Science student from **India**.
+😄 I'm a final year, Computer Science student from **India**.
 
 ❤️ Always passionate about all things tech.
 
