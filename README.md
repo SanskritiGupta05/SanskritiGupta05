@@ -10,7 +10,7 @@
 
 ⚡ Working on implementing while learning new things.
 
-🎨 Fun fact: Apart from programming, I love Sketching and painting as well. Find some of my artwork on my [Instagram](https://t.co/geBT5d9AnO?amp=1)
+🎨 Fun fact: Apart from programming, I love Sketching and painting as well. Find some of my artwork on my [Instagram](https://www.instagram.com/sanskritixart/)
 
 ✨ Learning & Growing are two main motives.
 
