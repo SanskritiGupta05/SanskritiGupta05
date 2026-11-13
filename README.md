@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
-  <img src="./assets/hero-light.svg" alt="Sanskriti Gupta, a product designer who codes her own ideas" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-hero-dark.svg" />
+  <img src="./assets/tech-hero-light.svg" alt="Sanskriti Gupta, a product designer who codes her own ideas" width="100%" />
 </picture>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2600&pause=900&color=39D0D8&center=true&vCenter=true&width=620&lines=%3E+designing+in+Figma...;%3E+vibe+coding+with+Claude+Code...;%3E+npm+run+ship+%E2%9C%93;%3E+if+I+can+design+it%2C+I+can+build+it" alt="Typing intro" />
@@ -38,8 +38,8 @@ I used to write code for grades. Now I design products, and I **vibe code** the 
 ## `⚙` &nbsp;how-i-work.yml
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/process-dark.svg" />
-  <img src="./assets/process-light.svg" alt="Sketch on paper, design in Figma, vibe code with Claude, ship on Vercel" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-process-dark.svg" />
+  <img src="./assets/tech-process-light.svg" alt="Sketch on paper, design in Figma, vibe code with Claude, ship on Vercel" width="100%" />
 </picture>
 
 <br/>
@@ -50,38 +50,38 @@ I used to write code for grades. Now I design products, and I **vibe code** the 
 
 <a href="https://github.com/SanskritiGupta05/sanskriti-portfolio">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-portfolio-dark.svg" />
-  <img src="./assets/card-portfolio-light.svg" alt="Sanskriti Portfolio" width="49%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-card-portfolio-dark.svg" />
+  <img src="./assets/tech-card-portfolio-light.svg" alt="Sanskriti Portfolio" width="49%" />
 </picture>
 </a>
 <a href="https://github.com/SanskritiGupta05/beyond-the-ordinary">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-beyond-dark.svg" />
-  <img src="./assets/card-beyond-light.svg" alt="Beyond the Ordinary" width="49%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-card-beyond-dark.svg" />
+  <img src="./assets/tech-card-beyond-light.svg" alt="Beyond the Ordinary" width="49%" />
 </picture>
 </a>
 <a href="https://inkwork-press.vercel.app">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-inkwork-dark.svg" />
-  <img src="./assets/card-inkwork-light.svg" alt="Inkwork Press" width="49%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-card-inkwork-dark.svg" />
+  <img src="./assets/tech-card-inkwork-light.svg" alt="Inkwork Press" width="49%" />
 </picture>
 </a>
 <a href="https://github.com/SanskritiGupta05/glitchbox">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-glitchbox-dark.svg" />
-  <img src="./assets/card-glitchbox-light.svg" alt="GlitchBox" width="49%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-card-glitchbox-dark.svg" />
+  <img src="./assets/tech-card-glitchbox-light.svg" alt="GlitchBox" width="49%" />
 </picture>
 </a>
 <a href="https://github.com/SanskritiGupta05/spider-verse-cards">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-cards-dark.svg" />
-  <img src="./assets/card-cards-light.svg" alt="Spider-Verse Cards" width="49%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-card-cards-dark.svg" />
+  <img src="./assets/tech-card-cards-light.svg" alt="Spider-Verse Cards" width="49%" />
 </picture>
 </a>
 <a href="https://github.com/SanskritiGupta05/AniQuotes-Chrome-Extension">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-aniquotes-dark.svg" />
-  <img src="./assets/card-aniquotes-light.svg" alt="AniQuotes" width="49%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-card-aniquotes-dark.svg" />
+  <img src="./assets/tech-card-aniquotes-light.svg" alt="AniQuotes" width="49%" />
 </picture>
 </a>
 
@@ -148,6 +148,6 @@ I used to write code for grades. Now I design products, and I **vibe code** the 
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" />
-  <img src="./assets/footer-light.svg" alt="Thanks for stopping by" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-footer-dark.svg" />
+  <img src="./assets/tech-footer-light.svg" alt="Thanks for stopping by" width="100%" />
 </picture>
