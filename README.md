@@ -93,7 +93,7 @@ I used to write code for grades. Now I design products, and I **vibe code** the 
 <tr>
 <td width="33%" valign="top">
 <details>
-<summary><code>📁 apis/</code> &nbsp;<sub>5 posts</sub></summary>
+<summary><code>📁 apis/</code></summary>
 
 - [Understanding HTTP, HTTPS and APIs](https://sanskritigupta.hashnode.dev/understanding-http-https-and-apis)
 - [Theoretical concepts of APIs](https://sanskritigupta.hashnode.dev/theoretical-concepts-of-apis)
@@ -105,7 +105,7 @@ I used to write code for grades. Now I design products, and I **vibe code** the 
 </td>
 <td width="33%" valign="top">
 <details>
-<summary><code>📁 git-github/</code> &nbsp;<sub>5 posts</sub></summary>
+<summary><code>📁 git-github/</code></summary>
 
 - [Understanding Git & GitHub](https://sanskritigupta.hashnode.dev/understanding-git-and-github)
 - [The very basics: git init & git status](https://sanskritigupta.hashnode.dev/the-very-basics-git-init-and-git-status)
@@ -117,7 +117,7 @@ I used to write code for grades. Now I design products, and I **vibe code** the 
 </td>
 <td width="33%" valign="top">
 <details>
-<summary><code>📁 community/</code> &nbsp;<sub>3 posts</sub></summary>
+<summary><code>📁 community/</code></summary>
 
 - [How to get started with programming](https://sanskritigupta.hashnode.dev/how-to-get-started-with-programming)
 - [How I got into tech #WomenWhoTech](https://sanskritigupta.hashnode.dev/how-i-got-into-tech-womenwhotech)
