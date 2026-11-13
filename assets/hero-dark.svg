@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" role="img" aria-label="Sanskriti Gupta, product designer who codes her own ideas">
+<defs><filter id="paper" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="7"/>
+  <feColorMatrix values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 .05 0"/>
+</filter>
+<radialGradient id="g"><stop offset="0" stop-color="#E8A33D" stop-opacity=".35"/><stop offset="1" stop-color="#E8A33D" stop-opacity="0"/></radialGradient>
+<clipPath id="c"><rect width="1000" height="340" rx="20"/></clipPath></defs>
+<style>
+.enso{fill:none;stroke:#EDE6D8;stroke-linecap:round;stroke-dasharray:800;stroke-dashoffset:800;animation:draw 2.2s cubic-bezier(.6,.05,.3,1) .2s forwards}
+.enso2{animation-duration:2.6s;animation-delay:.35s}
+@keyframes draw{to{stroke-dashoffset:0}}
+.sun{fill:#E04A3A;transform-origin:190px 170px;transform:scale(0);animation:pop .9s cubic-bezier(.3,1.6,.5,1) 1.9s forwards}
+@keyframes pop{to{transform:scale(1)}}
+.glow{opacity:.4;transform-origin:190px 170px;animation:breathe 4s ease-in-out infinite}
+@keyframes breathe{50%{opacity:1;transform:scale(1.08)}}
+.fade{opacity:0;animation:in .8s ease-out forwards}
+@keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.role{font:500 17px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#E04A3A;opacity:0;animation:cycle 12s infinite}
+@keyframes cycle{0%{opacity:0;transform:translateY(8px)}4%,22%{opacity:1;transform:none}26%,100%{opacity:0;transform:translateY(-8px)}}
+.stamp{transform-origin:900px 268px;opacity:0;animation:stamp .5s cubic-bezier(.3,1.5,.5,1) 2.6s forwards}
+@keyframes stamp{from{opacity:0;transform:rotate(-8deg) scale(1.6)}to{opacity:.92;transform:rotate(-8deg) scale(1)}}
+.jp{font:14px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#9A9183;text-anchor:middle}
+.petal{fill:#E04A3A;opacity:0;animation:fall 9s linear infinite}
+@keyframes fall{0%{opacity:0;transform:translate(0,0) rotate(0)}10%{opacity:.7}90%{opacity:.5}100%{opacity:0;transform:translate(-120px,260px) rotate(220deg)}}
+</style>
+<g clip-path="url(#c)">
+<rect width="1000" height="340" fill="#0F0E0D"/>
+<rect width="1000" height="340" filter="url(#paper)"/>
+<circle class="glow" cx="190" cy="170" r="120" fill="url(#g)"/>
+<path class="enso" d="M226.9,68.5 L233.4,70.9 L239.8,73.7 L246.0,76.9 L251.9,80.5 L257.7,84.4 L263.1,88.8 L268.3,93.5 L273.1,98.6 L277.6,104.0 L281.8,109.6 L285.6,115.6 L288.9,121.8 L291.9,128.2 L294.4,134.7 L296.4,141.5 L298.0,148.4 L299.1,155.3 L299.8,162.3 L300.0,169.4 L299.7,176.4 L298.9,183.4 L297.7,190.3 L296.0,197.1 L293.9,203.8 L291.4,210.3 L288.4,216.6 L285.0,222.7 L281.3,228.5 L277.2,234.1 L272.7,239.4 L268.0,244.4 L262.9,249.1 L257.5,253.4 L252.0,257.4 L246.1,261.0 L240.1,264.2 L233.9,267.1 L227.5,269.5 L221.1,271.6 L214.5,273.3 L207.8,274.5 L201.1,275.4 L194.3,275.8 L187.5,275.8 L180.8,275.4 L174.0,274.6 L167.4,273.4 L160.8,271.8 L154.3,269.8 L148.0,267.4 L141.8,264.7 L135.7,261.5 L129.9,258.0 L124.3,254.1 L118.9,249.9 L113.8,245.3 L109.0,240.4 L104.5,235.2 L100.3,229.7 L96.5,224.0 L93.0,218.0 L89.9,211.8 L87.3,205.4 L85.0,198.8 L83.2,192.1 L81.8,185.2 L80.9,178.3 L80.4,171.3 L80.4,164.3 L80.9,157.2 L81.8,150.3 L83.2,143.4 L85.1,136.6 L87.4,129.9 L90.2,123.4 L93.4,117.2 L97.0,111.1 L101.0,105.3 L105.3,99.8 L110.1,94.6 L115.2,89.7 L120.5,85.2 L126.2,81.1 L132.1,77.3 L138.2,74.0 L144.6,71.1 L151.1,68.6 L157.7,66.5 L164.4,64.8 L171.2,63.6" stroke-width="15" opacity=".92"/>
+<path class="enso enso2" d="M247.5,70.4 L253.4,73.6 L259.1,77.2 L264.6,81.1 L269.9,85.3 L274.9,89.9 L279.6,94.8 L284.1,99.9 L288.2,105.4 L292.0,111.1 L295.4,117.0 L298.5,123.2 L301.1,129.5 L303.4,136.0 L305.2,142.7 L306.7,149.4 L307.6,156.3 L308.2,163.1 L308.3,170.0 L308.0,176.9 L307.2,183.7 L306.0,190.5 L304.4,197.1 L302.4,203.6 L300.0,210.0 L297.2,216.2 L294.0,222.2 L290.5,228.0 L286.7,233.6 L282.5,238.9 L278.1,243.9 L273.4,248.7 L268.4,253.1 L263.2,257.3 L257.8,261.1 L252.2,264.6 L246.5,267.8 L240.6,270.7 L234.5,273.2 L228.4,275.4 L222.1,277.3 L215.8,278.8 L209.4,280.0 L203.0,280.9 L196.5,281.4 L190.0,281.6 L183.5,281.4 L177.0,280.9 L170.6,280.0 L164.2,278.8 L157.9,277.3 L151.6,275.4 L145.5,273.2 L139.4,270.7 L133.5,267.8 L127.8,264.6 L122.2,261.1 L116.8,257.3 L111.6,253.1 L106.6,248.7 L101.9,243.9 L97.5,238.9 L93.3,233.6 L89.5,228.0 L86.0,222.2 L82.8,216.2 L80.0,210.0 L77.6,203.6 L75.6,197.1 L74.0,190.5 L72.8,183.7 L72.0,176.9 L71.7,170.0 L71.8,163.1 L72.4,156.3 L73.3,149.4 L74.8,142.7 L76.6,136.0 L78.9,129.5 L81.5,123.2 L84.6,117.0 L88.0,111.1 L91.8,105.4 L95.9,99.9 L100.4,94.8 L105.1,89.9 L110.1,85.3 L115.4,81.1 L120.9,77.2 L126.6,73.6 L132.5,70.4" stroke-width="4" opacity=".45"/>
+<circle class="sun" cx="190" cy="170" r="36"/>
+<ellipse class="petal" cx="640" cy="-10" rx="5" ry="3"/>
+<ellipse class="petal" cx="820" cy="-10" rx="4" ry="2.5" style="animation-delay:3s"/>
+<ellipse class="petal" cx="520" cy="-10" rx="3.5" ry="2" style="animation-delay:6s"/>
+<g class="fade" style="animation-delay:.6s"><text x="380" y="96" style="font:600 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:3px;fill:#9A9183">CS GRADUATE  →  PRODUCT DESIGNER  →  VIBE CODER</text></g>
+<g class="fade" style="animation-delay:.9s"><text x="376" y="168" style="font:400 64px Georgia, 'Times New Roman', serif;fill:#EDE6D8;letter-spacing:-1px">Sanskriti Gupta</text></g>
+<g class="fade" style="animation-delay:1.2s"><text x="380" y="210" style="font:italic 400 22px Georgia, 'Times New Roman', serif;fill:#9A9183">a product designer who codes her own ideas.</text></g>
+<line x1="380" y1="232" x2="440" y2="232" stroke="#E04A3A" stroke-width="2" class="fade" style="animation-delay:1.4s"/>
+<text class="role" style="animation-delay:0s" x="380" y="262">→ designing in Figma</text><text class="role" style="animation-delay:3s" x="380" y="262">→ vibe coding with Claude Code</text><text class="role" style="animation-delay:6s" x="380" y="262">→ shipping on Vercel</text><text class="role" style="animation-delay:9s" x="380" y="262">→ sketching on paper</text>
+<g class="stamp"><rect x="872" y="240" width="56" height="56" rx="8" fill="#E04A3A"/>
+<text x="900" y="279" text-anchor="middle" style="font:700 30px Georgia, 'Times New Roman', serif;fill:#0F0E0D">創</text></g>
+<text x="952" y="70" class="jp">デ</text><text x="952" y="96" class="jp">ザ</text><text x="952" y="122" class="jp">イ</text><text x="952" y="148" class="jp">ン</text><text x="952" y="174" class="jp">と</text><text x="952" y="200" class="jp">コ</text><text x="952" y="226" class="jp">ー</text><text x="952" y="252" class="jp">ド</text>
+</g>
+<rect x=".5" y=".5" width="999" height="339" rx="20" fill="none" stroke="#2C2926"/>
+</svg>

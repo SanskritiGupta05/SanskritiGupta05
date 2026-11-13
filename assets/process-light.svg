@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" width="1000" height="190" role="img" aria-label="How I work: sketch, design in Figma, vibe code with Claude, ship on Vercel">
+<defs><filter id="paper" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="7"/>
+  <feColorMatrix values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 .07 0"/>
+</filter></defs>
+<style>
+.train{animation:ride 8s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes ride{0%{transform:translateX(0);opacity:0}5%{opacity:1}85%{transform:translateX(820px);opacity:1}92%,100%{transform:translateX(820px);opacity:0}}
+</style>
+<rect width="1000" height="190" rx="20" fill="#F3EDE2"/>
+<rect width="1000" height="190" rx="20" filter="url(#paper)"/>
+<line x1="80" y1="98" x2="920" y2="98" stroke="#1B1A18" stroke-width="4" stroke-linecap="round"/>
+<g class="train"><rect x="58" y="89" width="44" height="18" rx="9" fill="#C8322B"/><circle cx="94" cy="98" r="3" fill="#F3EDE2"/></g>
+<style>.s0{animation:light0 8s linear infinite}
+@keyframes light0{0%,2.9%{fill:#FBF8F2}3.0%,92%{fill:#C8322B}100%{fill:#FBF8F2}}</style>
+<circle class="s0" cx="110" cy="98" r="11" stroke="#1B1A18" stroke-width="3"/>
+<text x="110" y="62" text-anchor="middle" style="font:600 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:2px;fill:#6B645A">01  IDEA</text>
+<text x="110" y="140" text-anchor="middle" style="font:400 18px Georgia, 'Times New Roman', serif;fill:#1B1A18">Sketch it on paper</text><style>.s1{animation:light1 8s linear infinite}
+@keyframes light1{0%,29.2%{fill:#FBF8F2}29.3%,92%{fill:#C8322B}100%{fill:#FBF8F2}}</style>
+<circle class="s1" cx="370" cy="98" r="11" stroke="#1B1A18" stroke-width="3"/>
+<text x="370" y="62" text-anchor="middle" style="font:600 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:2px;fill:#6B645A">02  DESIGN</text>
+<text x="370" y="140" text-anchor="middle" style="font:400 18px Georgia, 'Times New Roman', serif;fill:#1B1A18">Shape it in Figma</text><style>.s2{animation:light2 8s linear infinite}
+@keyframes light2{0%,55.6%{fill:#FBF8F2}55.7%,92%{fill:#C8322B}100%{fill:#FBF8F2}}</style>
+<circle class="s2" cx="630" cy="98" r="11" stroke="#1B1A18" stroke-width="3"/>
+<text x="630" y="62" text-anchor="middle" style="font:600 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:2px;fill:#6B645A">03  BUILD</text>
+<text x="630" y="140" text-anchor="middle" style="font:400 18px Georgia, 'Times New Roman', serif;fill:#1B1A18">Vibe code it with Claude</text><style>.s3{animation:light3 8s linear infinite}
+@keyframes light3{0%,81.9%{fill:#FBF8F2}82.0%,92%{fill:#C8322B}100%{fill:#FBF8F2}}</style>
+<circle class="s3" cx="890" cy="98" r="11" stroke="#1B1A18" stroke-width="3"/>
+<text x="890" y="62" text-anchor="middle" style="font:600 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:2px;fill:#6B645A">04  SHIP</text>
+<text x="890" y="140" text-anchor="middle" style="font:400 18px Georgia, 'Times New Roman', serif;fill:#1B1A18">Put it live on Vercel</text>
+<text x="500" y="176" text-anchor="middle" style="font:500 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:2px;fill:#6B645A">NO HAND-OFF  ·  WHAT SHIPS IS WHAT I DESIGNED</text>
+<rect x=".5" y=".5" width="999" height="189" rx="20" fill="none" stroke="#DDD3C3"/>
+</svg>

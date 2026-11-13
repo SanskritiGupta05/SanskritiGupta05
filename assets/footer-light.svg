@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 120" width="1000" height="120" role="img" aria-label="Thanks for stopping by">
+<style>.w{stroke-dasharray:1400;stroke-dashoffset:1400;animation:d 3s ease-out forwards}@keyframes d{to{stroke-dashoffset:0}}
+.s{animation:rise 6s ease-in-out infinite}@keyframes rise{50%{transform:translateY(-6px)}}</style>
+<path class="w" d="M40,70 Q60,50 80,70 Q140,90 160,70 Q220,50 240,70 Q300,90 320,70 Q380,50 400,70 Q460,90 480,70 Q540,50 560,70 Q620,90 640,70 Q700,50 720,70 Q780,90 800,70 Q860,50 880,70" fill="none" stroke="#1B1A18" stroke-width="2.5" stroke-linecap="round" opacity=".55"/>
+<circle class="s" cx="500" cy="38" r="16" fill="#C8322B"/>
+<text x="500" y="112" text-anchor="middle" style="font:italic 400 17px Georgia, 'Times New Roman', serif;fill:#6B645A">thanks for stopping by · designed with care, built with curiosity</text>
+</svg>
