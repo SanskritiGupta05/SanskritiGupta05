@@ -1,61 +1,111 @@
-<h1 align="center"> Sanskriti Gupta (She/Her)👋🏻 </h1>
-
-# About Me 👩🏻‍💻
-
-😄 I'm a final year, Computer Science student from **India**.
-
-❤️ Always passionate about all things tech.
-
-🌱 Currently, I'm learning **JavaScript** and practicing **Data Structures and Algorithms** on a regular basis.
-
-⚡ Working on implementing while learning new things.
-
-🎨 Fun fact: Apart from programming, I love Sketching and painting as well. Find some of my artwork on my [Instagram](https://www.instagram.com/sanskritixart/)
-
-✨ Learning & Growing are two main motives.
-
-<!-- Langs -->
-
-<h2 align="center">Tech Stack</h2>
-
-<p align="center" >
-  
-<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" /> 
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green" />
-  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-  
-</p>
-
-<!-- Stats -->
-<h2 align="center">My Github stats</h2>
-
-<p align="center" >
-
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=SanskritiGupta05&theme=radical" />
-</a>
-<a href="https://github.com/anuraghazra/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=SanskritiGupta05&&layout=donut-vertical&langs_count=8&card_width=320&theme=radical" />
-</a>
-
-</p>
-<!-- Blogs -->
-<h2 align="center">Checkout my Technical Blogs!</h2>
-<p align="center">
-<a href="https://sanskritigupta.hashnode.dev/" rel="nofollow"><img src="https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white"/></a>
-</p>
-
-<!-- Connect -->
-<h1 align="center">Connect with me</h2>
+<h1 align="center">Sanskriti Gupta (She/Her) ✦</h1>
 
 <p align="center">
-<a href="https://twitter.com/GuptaSanskritii" rel="nofollow"><img src="https://img.icons8.com/fluency/48/000000/twitter.png"/></a><a href="mailto:sanskritigupta0005@gmail.com">
-<img src="https://img.icons8.com/color/48/000000/gmail-new.png"/></a><a href="https://www.linkedin.com/in/sanskritiguptaa/"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a> <a href="https://linkfree.io/SanskritiGupta05"><img src="https://linkfree.io/_next/image?url=%2Flogo192.png&w=32&q=75"/></a>
+  <b>Product designer who codes her own ideas.</b><br/>
+  CS graduate → product designer → vibe coder.<br/>
+  I design in Figma, then build the real thing with AI by my side.
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Product%20Designer-000000?style=flat-square" />
+  <img src="https://img.shields.io/badge/B.Tech%20Computer%20Science-000000?style=flat-square" />
+  <img src="https://img.shields.io/badge/Based%20in-India-000000?style=flat-square" />
+</p>
+
+---
+
+### 🌸 About me
+
+- 🎨 I'm a **product designer**. I work on mobile apps, landing pages and design systems.
+- 💻 I studied **Computer Science**. Back then I wrote C++, solved DSA problems and built small web apps.
+- ✨ Now I **vibe code**. I design a screen in Figma, then turn it into a working site with Claude Code. Motion, hover states and small details included.
+- 🗾 I love **Japanese design**: washi paper, sumi ink, ma (empty space). It shows up in almost everything I make.
+- 🖌️ Outside screens, I sketch and paint. Some of it lives on [Instagram](https://www.instagram.com/sanskritixart/).
+
+---
+
+### 🧭 How I work now
+
+```
+  idea  ──▶  Figma  ──▶  Claude Code  ──▶  live on Vercel
+ (sketch)   (design)    (vibe coding)      (ship it)
+```
+
+I don't hand designs off and hope they come out right. I build them myself, so what ships looks the way I designed it.
+
+---
+
+### 🏮 Things I've made recently
+
+| Project | What it is | Built with |
+| --- | --- | --- |
+| [**sanskriti-portfolio**](https://github.com/SanskritiGupta05/sanskriti-portfolio) | My portfolio. Monochrome and Japanese-inspired: washi by day, lantern light by night. Pull the lantern to switch. | Next.js · TypeScript · Figma |
+| [**beyond-the-ordinary**](https://github.com/SanskritiGupta05/beyond-the-ordinary) | An editorial archive of Japanese design, the people behind it, and ideas that travelled beyond Japan. Every claim is sourced. | Next.js · TypeScript |
+| [**inkwork-press**](https://github.com/SanskritiGupta05/inkwork-press) · [live ↗](https://inkwork-press.vercel.app) | Turns any PNG into a black-and-red ornamental ink illustration, right in your browser. | HTML · Canvas · JS |
+| [**glitchbox**](https://github.com/SanskritiGupta05/glitchbox) | A mystery puzzle game that watches how you solve and changes the next clue to match. Built for InnoTech '26. | JavaScript |
+| [**spider-verse-cards**](https://github.com/SanskritiGupta05/spider-verse-cards) | A cinematic collectible card reveal with a holographic, interactive hero card. Designed in Figma first. | Next.js · Framer Motion |
+
+---
+
+### 🛠️ Toolkit
+
+**Design**
+
+<p>
+  <img src="https://img.shields.io/badge/Figma-000000?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/Design%20Systems-000000?style=for-the-badge&logo=storybook&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prototyping-000000?style=for-the-badge&logo=framer&logoColor=white" />
+</p>
+
+**Vibe coding (now)**
+
+<p>
+  <img src="https://img.shields.io/badge/Claude%20Code-000000?style=for-the-badge&logo=claude&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-000000?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Framer%20Motion-000000?style=for-the-badge&logo=framer&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+</p>
+
+<details>
+<summary><b>Where it started: my CS student days</b> 🎓</summary>
+<br/>
+
+During my bachelor's in Computer Science I coded a lot: DSA practice, LeetCode, open source during Hacktoberfest, and plenty of small web projects.
+
+<p>
+  <img src="https://img.shields.io/badge/C%2B%2B-555555?style=flat-square&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-555555?style=flat-square&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-555555?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-555555?style=flat-square&logo=javascript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-555555?style=flat-square&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-555555?style=flat-square&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-555555?style=flat-square&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/PHP-555555?style=flat-square&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-555555?style=flat-square&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-555555?style=flat-square&logo=css3&logoColor=white" />
+</p>
+
+A few from back then:
+
+- [**AniQuotes Chrome Extension**](https://github.com/SanskritiGupta05/AniQuotes-Chrome-Extension): a motivational anime quote on every new tab, with [its own API](https://github.com/SanskritiGupta05/AniQuotes)
+- [**DSA**](https://github.com/SanskritiGupta05/DSA) and [**LeetCode Submissions**](https://github.com/SanskritiGupta05/LeetCode-Submissions): interview prep, one problem at a time
+- [**Quick Quiz**](https://quick-quiz-eight.vercel.app), [**Translator API**](https://github.com/SanskritiGupta05/translator-api-project), [**Bookstore MERN app**](https://github.com/SanskritiGupta05/Bookstore-mern-app)
+- Wrote technical blogs on [Hashnode](https://sanskritigupta.hashnode.dev/)
+
+</details>
+
+---
+
+### 🤝 Say hi
+
+<p>
+  <a href="https://www.linkedin.com/in/sanskritiguptaa/"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://twitter.com/GuptaSanskritii"><img src="https://img.shields.io/badge/X%20(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
+  <a href="https://www.instagram.com/sanskritixart/"><img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="https://sanskritigupta.hashnode.dev/"><img src="https://img.shields.io/badge/Hashnode-000000?style=for-the-badge&logo=hashnode&logoColor=white" /></a>
+  <a href="mailto:sanskritigupta0005@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
+
+<p align="center"><sub>Designed with care, built with a lot of curiosity ✦</sub></p>
