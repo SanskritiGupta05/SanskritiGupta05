@@ -82,6 +82,53 @@ I used to write code for grades. Now I design products, and I **vibe code** the 
 
 <br/>
 
+## `✎` &nbsp;blog.md
+
+<a href="https://sanskritigupta.hashnode.dev/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-blog-dark.svg" />
+  <img src="./assets/tech-blog-light.svg" alt="Technical blog on Hashnode: 13 articles on APIs, Git and GitHub, and community" width="100%" />
+</picture></a>
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**`apis/`**
+
+- [Understanding HTTP, HTTPS and APIs](https://sanskritigupta.hashnode.dev/understanding-http-https-and-apis)
+- [Theoretical concepts of APIs](https://sanskritigupta.hashnode.dev/theoretical-concepts-of-apis)
+- [Build an API using NodeJS](https://sanskritigupta.hashnode.dev/build-an-api-using-nodejs)
+- [Integrate Weather API into your website](https://sanskritigupta.hashnode.dev/integrate-weather-api-into-your-website)
+- [My Keploy Fellowship Experience '23](https://sanskritigupta.hashnode.dev/my-keploy-fellowship-experience23)
+
+</td>
+<td width="33%" valign="top">
+
+**`git-github/`**
+
+- [Understanding Git & GitHub](https://sanskritigupta.hashnode.dev/understanding-git-and-github)
+- [The very basics: git init & git status](https://sanskritigupta.hashnode.dev/the-very-basics-git-init-and-git-status)
+- [git add & git commit](https://sanskritigupta.hashnode.dev/git-add-and-git-commit)
+- [Getting started with GitHub](https://sanskritigupta.hashnode.dev/getting-started-with-github)
+- [Create your first repository on GitHub](https://sanskritigupta.hashnode.dev/create-your-first-repository-on-github)
+
+</td>
+<td width="33%" valign="top">
+
+**`community/`**
+
+- [How to get started with programming](https://sanskritigupta.hashnode.dev/how-to-get-started-with-programming)
+- [How I got into tech #WomenWhoTech](https://sanskritigupta.hashnode.dev/how-i-got-into-tech-womenwhotech)
+- [My WeMakeDevs meetup experience](https://sanskritigupta.hashnode.dev/my-wemakedevs-meetup-experience)
+
+</td>
+</tr>
+</table>
+
+<p align="center"><a href="https://sanskritigupta.hashnode.dev/"><img src="https://img.shields.io/badge/Read_on_Hashnode-0B0F14?style=for-the-badge&logo=hashnode&logoColor=39D0D8" /></a></p>
+
+<br/>
+
 ## `▲` &nbsp;git activity
 
 <div align="center">
