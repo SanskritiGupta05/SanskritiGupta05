@@ -1,7 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 120" width="1000" height="120" role="img" aria-label="Thanks for stopping by">
-<style>.w{stroke-dasharray:1400;stroke-dashoffset:1400;animation:d 3s ease-out forwards}@keyframes d{to{stroke-dashoffset:0}}
-.s{animation:rise 6s ease-in-out infinite}@keyframes rise{50%{transform:translateY(-6px)}}</style>
-<path class="w" d="M40,70 Q60,50 80,70 Q140,90 160,70 Q220,50 240,70 Q300,90 320,70 Q380,50 400,70 Q460,90 480,70 Q540,50 560,70 Q620,90 640,70 Q700,50 720,70 Q780,90 800,70 Q860,50 880,70" fill="none" stroke="#1B1A18" stroke-width="2.5" stroke-linecap="round" opacity=".55"/>
-<circle class="s" cx="500" cy="38" r="16" fill="#C8322B"/>
-<text x="500" y="112" text-anchor="middle" style="font:italic 400 17px Georgia, 'Times New Roman', serif;fill:#6B645A">thanks for stopping by · designed with care, built with curiosity</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 96" width="1000" height="96" role="img" aria-label="Thanks for stopping by">
+<defs>
+<linearGradient id="grad" x1="0" x2="1"><stop offset="0" stop-color="#39D0D8"/><stop offset="1" stop-color="#A371F7"/></linearGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#16212D" stroke-width="1"/></pattern>
+<clipPath id="frame"><rect width="1000" height="96" rx="14"/></clipPath>
+</defs>
+<style>.cur{animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
+.scan{animation:scan 4s linear infinite}@keyframes scan{from{transform:translateX(-300px)}to{transform:translateX(1000px)}}</style>
+<g clip-path="url(#frame)"><rect width="1000" height="96" fill="#0B0F14"/><rect width="1000" height="96" fill="url(#grid)" opacity=".6"/>
+<rect class="scan" width="300" height="2" fill="url(#grad)"/>
+<text x="28" y="42" style="font:500 15px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#E6EDF3"><tspan fill="#3FB950">❯</tspan> echo $THANKS</text>
+<text x="28" y="70" style="font:500 15px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99">thanks for stopping by. let's build something <tspan fill="#F778BA">✦</tspan></text>
+<rect class="cur" x="508" y="57" width="9" height="17" fill="#39D0D8"/>
+<text x="972" y="70" text-anchor="end" style="font:400 12px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#3B4856">exit 0</text></g><rect x=".5" y=".5" width="999" height="95" rx="14" fill="none" stroke="#0B0F14"/>
 </svg>

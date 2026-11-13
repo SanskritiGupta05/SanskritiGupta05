@@ -1,15 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 210" width="490" height="210" role="img" aria-label="Inkwork Press">
-<defs><filter id="paper" x="0" y="0" width="100%" height="100%">
-  <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="7"/>
-  <feColorMatrix values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 .05 0"/>
-</filter><clipPath id="cc"><rect width="490" height="210" rx="16"/></clipPath></defs>
-<g clip-path="url(#cc)"><rect width="490" height="210" fill="#161412"/><rect width="490" height="210" filter="url(#paper)"/>
-<style>.spin{transform-origin:395px 105px;animation:spin linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
-.pulse{transform-origin:395px 105px;animation:pulse 3s ease-in-out infinite}@keyframes pulse{50%{transform:scale(1.12)}}</style>
-<circle cx="395" cy="105" r="70" fill="none" stroke="#EDE6D8" stroke-width="2" stroke-dasharray="2 6" class="spin" style="animation-duration:30s;animation-direction:normal"/><circle cx="395" cy="105" r="58" fill="none" stroke="#EDE6D8" stroke-width="6" stroke-dasharray="10 6" class="spin" style="animation-duration:24s;animation-direction:reverse"/><circle cx="395" cy="105" r="46" fill="none" stroke="#EDE6D8" stroke-width="1.5" stroke-dasharray="1 4" class="spin" style="animation-duration:18s;animation-direction:normal"/><circle class="pulse" cx="395" cy="105" r="28" fill="#E04A3A"/>
-<text x="26" y="42" style="font:600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:2px;fill:#E04A3A">03 · 2026 · LIVE</text>
-<text x="26" y="80" style="font:400 27px Georgia, 'Times New Roman', serif;fill:#EDE6D8">Inkwork Press</text>
-<text x="26" y="112" style="font:400 14.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#9A9183">Turns any PNG into a black-and-red</text><text x="26" y="133" style="font:400 14.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#9A9183">ink illustration, in your browser.</text><rect x="26" y="164" width="59" height="24" rx="12" fill="none" stroke="#2C2926"/><text x="56" y="180" text-anchor="middle" style="font:500 11.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#9A9183">Canvas</text><rect x="93.2" y="164" width="88" height="24" rx="12" fill="none" stroke="#2C2926"/><text x="137" y="180" text-anchor="middle" style="font:500 11.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#9A9183">JavaScript</text>
-<text x="468" y="42" text-anchor="end" style="font:400 16px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#9A9183">↗</text></g>
-<rect x=".5" y=".5" width="489" height="209" rx="16" fill="none" stroke="#2C2926"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 220" width="490" height="220" role="img" aria-label="Inkwork Press">
+<defs>
+<linearGradient id="grad" x1="0" x2="1"><stop offset="0" stop-color="#39D0D8"/><stop offset="1" stop-color="#A371F7"/></linearGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#16212D" stroke-width="1"/></pattern>
+<clipPath id="frame"><rect width="490" height="220" rx="12"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="490" height="220" fill="#0B0F14"/><rect width="490" height="220" fill="url(#grid)" opacity=".6"/>
+<rect width="490" height="30" fill="#151E2A"/>
+<text x="16" y="20" style="font:500 11.5px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99"><tspan fill="#3FB950">~/</tspan>inkwork-press</text>
+<text x="474" y="20" text-anchor="end" style="font:500 11.5px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99">↗</text>
+<style>.spin{transform-origin:400px 118px;animation:spin linear infinite}@keyframes spin{to{transform:rotate(360deg)}}</style>
+<circle cx="400" cy="118" r="64" fill="none" stroke="#39D0D8" stroke-width="1.5" stroke-dasharray="2 6" class="spin" style="animation-duration:30s;animation-direction:normal"/><circle cx="400" cy="118" r="52" fill="none" stroke="#A371F7" stroke-width="4" stroke-dasharray="10 6" class="spin" style="animation-duration:22s;animation-direction:reverse"/><circle cx="400" cy="118" r="40" fill="none" stroke="#39D0D8" stroke-width="1.5" stroke-dasharray="1 4" class="spin" style="animation-duration:16s;animation-direction:normal"/><circle cx="400" cy="118" r="22" fill="#F778BA"><animate attributeName="r" values="22;26;22" dur="3s" repeatCount="indefinite"/></circle>
+<text x="22" y="80" style="font:700 22px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#E6EDF3;letter-spacing:-.5px">Inkwork Press</text>
+<circle cx="27" cy="96" r="5" fill="#E34C26"/><text x="38" y="100" style="font:400 11.5px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99">HTML</text>
+<text x="22" y="118" style="font:400 13px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99">PNG → black-and-red ink illustration,</text><text x="22" y="138" style="font:400 13px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99">100% in the browser. Live.</text><rect x="22" y="172" width="60" height="24" rx="6" fill="#151E2A" stroke="#22303F"/><text x="52" y="188" text-anchor="middle" style="font:500 11.5px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#39D0D8">canvas</text><rect x="90.4" y="172" width="68" height="24" rx="6" fill="#151E2A" stroke="#22303F"/><text x="124" y="188" text-anchor="middle" style="font:500 11.5px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#39D0D8">k-means</text></g><rect x=".5" y=".5" width="489" height="219" rx="12" fill="none" stroke="#22303F"/>
 </svg>

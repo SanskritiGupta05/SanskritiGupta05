@@ -1,33 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" width="1000" height="190" role="img" aria-label="How I work: sketch, design in Figma, vibe code with Claude, ship on Vercel">
-<defs><filter id="paper" x="0" y="0" width="100%" height="100%">
-  <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="7"/>
-  <feColorMatrix values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 .05 0"/>
-</filter></defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="1000" height="220" role="img" aria-label="Workflow: sketch, design in Figma, build with Claude Code, deploy to Vercel">
+<defs>
+<linearGradient id="grad" x1="0" x2="1"><stop offset="0" stop-color="#39D0D8"/><stop offset="1" stop-color="#A371F7"/></linearGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#16212D" stroke-width="1"/></pattern>
+<clipPath id="frame"><rect width="1000" height="220" rx="14"/></clipPath>
+</defs>
+<style>.dot{opacity:0;animation:dot 8s linear infinite}@keyframes dot{0%{opacity:1}10%{opacity:0}100%{opacity:0}}</style>
+<g clip-path="url(#frame)"><rect width="1000" height="220" fill="#0B0F14"/>
+<rect width="1000" height="220" fill="url(#grid)" opacity=".7"/>
+<rect width="1000" height="34" fill="#151E2A"/>
+<circle cx="20" cy="17" r="6" fill="#FF5F57"/><circle cx="40" cy="17" r="6" fill="#FEBC2E"/><circle cx="60" cy="17" r="6" fill="#28C840"/>
+<text x="500.0" y="22" text-anchor="middle" style="font:500 12px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99">.github/workflows/how-i-work.yml</text>
+<text x="40" y="66" style="font:500 13px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99"><tspan fill="#3FB950">●</tspan> idea-to-production  <tspan fill="#3B4856">·</tspan>  on: new_idea  <tspan fill="#3B4856">·</tspan>  no hand-off</text>
 <style>
-.train{animation:ride 8s cubic-bezier(.45,0,.55,1) infinite}
-@keyframes ride{0%{transform:translateX(0);opacity:0}5%{opacity:1}85%{transform:translateX(820px);opacity:1}92%,100%{transform:translateX(820px);opacity:0}}
+.sp0{animation:sp0 8s linear infinite}
+@keyframes sp0{0%,0.0%{opacity:0}0.1%,17.5%{opacity:1}17.6%,100%{opacity:0}}
+.ok0{animation:ok0 8s linear infinite}
+@keyframes ok0{0%,17.5%{opacity:0}17.6%,94%{opacity:1}96%,100%{opacity:0}}
+.bd0{animation:bd0 8s linear infinite}
+@keyframes bd0{0%,0.0%{stroke:#22303F}0.1%,17.5%{stroke:#E3B341}17.6%,94%{stroke:#3FB950}96%,100%{stroke:#22303F}}
 </style>
-<rect width="1000" height="190" rx="20" fill="#0F0E0D"/>
-<rect width="1000" height="190" rx="20" filter="url(#paper)"/>
-<line x1="80" y1="98" x2="920" y2="98" stroke="#EDE6D8" stroke-width="4" stroke-linecap="round"/>
-<g class="train"><rect x="58" y="89" width="44" height="18" rx="9" fill="#E04A3A"/><circle cx="94" cy="98" r="3" fill="#0F0E0D"/></g>
-<style>.s0{animation:light0 8s linear infinite}
-@keyframes light0{0%,2.9%{fill:#161412}3.0%,92%{fill:#E04A3A}100%{fill:#161412}}</style>
-<circle class="s0" cx="110" cy="98" r="11" stroke="#EDE6D8" stroke-width="3"/>
-<text x="110" y="62" text-anchor="middle" style="font:600 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:2px;fill:#9A9183">01  IDEA</text>
-<text x="110" y="140" text-anchor="middle" style="font:400 18px Georgia, 'Times New Roman', serif;fill:#EDE6D8">Sketch it on paper</text><style>.s1{animation:light1 8s linear infinite}
-@keyframes light1{0%,29.2%{fill:#161412}29.3%,92%{fill:#E04A3A}100%{fill:#161412}}</style>
-<circle class="s1" cx="370" cy="98" r="11" stroke="#EDE6D8" stroke-width="3"/>
-<text x="370" y="62" text-anchor="middle" style="font:600 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:2px;fill:#9A9183">02  DESIGN</text>
-<text x="370" y="140" text-anchor="middle" style="font:400 18px Georgia, 'Times New Roman', serif;fill:#EDE6D8">Shape it in Figma</text><style>.s2{animation:light2 8s linear infinite}
-@keyframes light2{0%,55.6%{fill:#161412}55.7%,92%{fill:#E04A3A}100%{fill:#161412}}</style>
-<circle class="s2" cx="630" cy="98" r="11" stroke="#EDE6D8" stroke-width="3"/>
-<text x="630" y="62" text-anchor="middle" style="font:600 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:2px;fill:#9A9183">03  BUILD</text>
-<text x="630" y="140" text-anchor="middle" style="font:400 18px Georgia, 'Times New Roman', serif;fill:#EDE6D8">Vibe code it with Claude</text><style>.s3{animation:light3 8s linear infinite}
-@keyframes light3{0%,81.9%{fill:#161412}82.0%,92%{fill:#E04A3A}100%{fill:#161412}}</style>
-<circle class="s3" cx="890" cy="98" r="11" stroke="#EDE6D8" stroke-width="3"/>
-<text x="890" y="62" text-anchor="middle" style="font:600 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:2px;fill:#9A9183">04  SHIP</text>
-<text x="890" y="140" text-anchor="middle" style="font:400 18px Georgia, 'Times New Roman', serif;fill:#EDE6D8">Put it live on Vercel</text>
-<text x="500" y="176" text-anchor="middle" style="font:500 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:2px;fill:#9A9183">NO HAND-OFF  ·  WHAT SHIPS IS WHAT I DESIGNED</text>
-<rect x=".5" y=".5" width="999" height="189" rx="20" fill="none" stroke="#2C2926"/>
+<rect class="bd0" x="40" y="86" width="200" height="74" rx="10" fill="#0F1620" stroke-width="1.5"/>
+<circle cx="66" cy="112" r="9" fill="none" stroke="#3B4856" stroke-width="2"/>
+<g class="sp0"><circle cx="66" cy="112" r="9" fill="none" stroke="#E3B341" stroke-width="2.5" stroke-dasharray="14 40"><animateTransform attributeName="transform" type="rotate" from="0 66 112" to="360 66 112" dur=".8s" repeatCount="indefinite"/></circle></g>
+<g class="ok0"><circle cx="66" cy="112" r="10" fill="#3FB950"/><path d="M61 112 l3.5 3.5 l6.5 -7" stroke="#0B0F14" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="86" y="117" style="font:700 15px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#E6EDF3">sketch</text>
+<text x="60" y="145" style="font:400 12px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99">uses: idea on paper</text><path d="M240 123 H280" stroke="#3B4856" stroke-width="2"/><circle cx="260" cy="123" r="3" fill="#39D0D8" class="dot" style="animation-delay:1.4s"/><style>
+.sp1{animation:sp1 8s linear infinite}
+@keyframes sp1{0%,20.0%{opacity:0}20.1%,37.5%{opacity:1}37.6%,100%{opacity:0}}
+.ok1{animation:ok1 8s linear infinite}
+@keyframes ok1{0%,37.5%{opacity:0}37.6%,94%{opacity:1}96%,100%{opacity:0}}
+.bd1{animation:bd1 8s linear infinite}
+@keyframes bd1{0%,20.0%{stroke:#22303F}20.1%,37.5%{stroke:#E3B341}37.6%,94%{stroke:#3FB950}96%,100%{stroke:#22303F}}
+</style>
+<rect class="bd1" x="280" y="86" width="200" height="74" rx="10" fill="#0F1620" stroke-width="1.5"/>
+<circle cx="306" cy="112" r="9" fill="none" stroke="#3B4856" stroke-width="2"/>
+<g class="sp1"><circle cx="306" cy="112" r="9" fill="none" stroke="#E3B341" stroke-width="2.5" stroke-dasharray="14 40"><animateTransform attributeName="transform" type="rotate" from="0 306 112" to="360 306 112" dur=".8s" repeatCount="indefinite"/></circle></g>
+<g class="ok1"><circle cx="306" cy="112" r="10" fill="#3FB950"/><path d="M301 112 l3.5 3.5 l6.5 -7" stroke="#0B0F14" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="326" y="117" style="font:700 15px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#E6EDF3">design</text>
+<text x="300" y="145" style="font:400 12px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99">uses: figma</text><path d="M480 123 H520" stroke="#3B4856" stroke-width="2"/><circle cx="500" cy="123" r="3" fill="#39D0D8" class="dot" style="animation-delay:3.0s"/><style>
+.sp2{animation:sp2 8s linear infinite}
+@keyframes sp2{0%,40.0%{opacity:0}40.1%,57.5%{opacity:1}57.6%,100%{opacity:0}}
+.ok2{animation:ok2 8s linear infinite}
+@keyframes ok2{0%,57.5%{opacity:0}57.6%,94%{opacity:1}96%,100%{opacity:0}}
+.bd2{animation:bd2 8s linear infinite}
+@keyframes bd2{0%,40.0%{stroke:#22303F}40.1%,57.5%{stroke:#E3B341}57.6%,94%{stroke:#3FB950}96%,100%{stroke:#22303F}}
+</style>
+<rect class="bd2" x="520" y="86" width="200" height="74" rx="10" fill="#0F1620" stroke-width="1.5"/>
+<circle cx="546" cy="112" r="9" fill="none" stroke="#3B4856" stroke-width="2"/>
+<g class="sp2"><circle cx="546" cy="112" r="9" fill="none" stroke="#E3B341" stroke-width="2.5" stroke-dasharray="14 40"><animateTransform attributeName="transform" type="rotate" from="0 546 112" to="360 546 112" dur=".8s" repeatCount="indefinite"/></circle></g>
+<g class="ok2"><circle cx="546" cy="112" r="10" fill="#3FB950"/><path d="M541 112 l3.5 3.5 l6.5 -7" stroke="#0B0F14" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="566" y="117" style="font:700 15px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#E6EDF3">build</text>
+<text x="540" y="145" style="font:400 12px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99">uses: claude code</text><path d="M720 123 H760" stroke="#3B4856" stroke-width="2"/><circle cx="740" cy="123" r="3" fill="#39D0D8" class="dot" style="animation-delay:4.6s"/><style>
+.sp3{animation:sp3 8s linear infinite}
+@keyframes sp3{0%,60.0%{opacity:0}60.1%,77.5%{opacity:1}77.6%,100%{opacity:0}}
+.ok3{animation:ok3 8s linear infinite}
+@keyframes ok3{0%,77.5%{opacity:0}77.6%,94%{opacity:1}96%,100%{opacity:0}}
+.bd3{animation:bd3 8s linear infinite}
+@keyframes bd3{0%,60.0%{stroke:#22303F}60.1%,77.5%{stroke:#E3B341}77.6%,94%{stroke:#3FB950}96%,100%{stroke:#22303F}}
+</style>
+<rect class="bd3" x="760" y="86" width="200" height="74" rx="10" fill="#0F1620" stroke-width="1.5"/>
+<circle cx="786" cy="112" r="9" fill="none" stroke="#3B4856" stroke-width="2"/>
+<g class="sp3"><circle cx="786" cy="112" r="9" fill="none" stroke="#E3B341" stroke-width="2.5" stroke-dasharray="14 40"><animateTransform attributeName="transform" type="rotate" from="0 786 112" to="360 786 112" dur=".8s" repeatCount="indefinite"/></circle></g>
+<g class="ok3"><circle cx="786" cy="112" r="10" fill="#3FB950"/><path d="M781 112 l3.5 3.5 l6.5 -7" stroke="#0B0F14" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="806" y="117" style="font:700 15px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#E6EDF3">deploy</text>
+<text x="780" y="145" style="font:400 12px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99">uses: vercel</text>
+<text x="40" y="196" style="font:400 12px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#3B4856">$ what ships is exactly what I designed</text>
+</g><rect x=".5" y=".5" width="999" height="219" rx="14" fill="none" stroke="#22303F"/>
 </svg>

@@ -1,18 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 210" width="490" height="210" role="img" aria-label="Beyond the Ordinary">
-<defs><filter id="paper" x="0" y="0" width="100%" height="100%">
-  <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="7"/>
-  <feColorMatrix values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 .05 0"/>
-</filter><clipPath id="cc"><rect width="490" height="210" rx="16"/></clipPath></defs>
-<g clip-path="url(#cc)"><rect width="490" height="210" fill="#161412"/><rect width="490" height="210" filter="url(#paper)"/>
-<style>.ink{stroke-dasharray:300;stroke-dashoffset:300;animation:ink 5s ease-in-out infinite}
-@keyframes ink{0%{stroke-dashoffset:300}40%,85%{stroke-dashoffset:0}100%{stroke-dashoffset:-300}}</style>
-<circle cx="425" cy="62" r="20" fill="#E04A3A" opacity=".9"/>
-<g fill="#EDE6D8"><path d="M333,52 Q395,40 457,52 L453,62 Q395,52 337,62Z"/>
-<rect x="347" y="76" width="96" height="8"/><rect x="357" y="58" width="9" height="118"/><rect x="424" y="58" width="9" height="118"/></g>
-<path class="ink" d="M325,186 Q395,176 465,186" stroke="#EDE6D8" stroke-width="3" fill="none" stroke-linecap="round"/>
-<text x="26" y="42" style="font:600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:2px;fill:#E04A3A">02 · 2026</text>
-<text x="26" y="80" style="font:400 27px Georgia, 'Times New Roman', serif;fill:#EDE6D8">Beyond the Ordinary</text>
-<text x="26" y="112" style="font:400 14.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#9A9183">An editorial archive of Japanese</text><text x="26" y="133" style="font:400 14.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#9A9183">design and the people behind it.</text><rect x="26" y="164" width="66" height="24" rx="12" fill="none" stroke="#2C2926"/><text x="59" y="180" text-anchor="middle" style="font:500 11.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#9A9183">Next.js</text><rect x="100.4" y="164" width="81" height="24" rx="12" fill="none" stroke="#2C2926"/><text x="141" y="180" text-anchor="middle" style="font:500 11.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#9A9183">Editorial</text><rect x="189.2" y="164" width="74" height="24" rx="12" fill="none" stroke="#2C2926"/><text x="226" y="180" text-anchor="middle" style="font:500 11.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#9A9183">Research</text>
-<text x="468" y="42" text-anchor="end" style="font:400 16px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#9A9183">↗</text></g>
-<rect x=".5" y=".5" width="489" height="209" rx="16" fill="none" stroke="#2C2926"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 220" width="490" height="220" role="img" aria-label="Beyond the Ordinary">
+<defs>
+<linearGradient id="grad" x1="0" x2="1"><stop offset="0" stop-color="#39D0D8"/><stop offset="1" stop-color="#A371F7"/></linearGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#16212D" stroke-width="1"/></pattern>
+<clipPath id="frame"><rect width="490" height="220" rx="12"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="490" height="220" fill="#0B0F14"/><rect width="490" height="220" fill="url(#grid)" opacity=".6"/>
+<rect width="490" height="30" fill="#151E2A"/>
+<text x="16" y="20" style="font:500 11.5px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99"><tspan fill="#3FB950">~/</tspan>beyond-the-ordinary</text>
+<text x="474" y="20" text-anchor="end" style="font:500 11.5px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99">↗</text>
+<style>.dr{stroke-dasharray:260;stroke-dashoffset:260;animation:dr 4s ease-in-out infinite}@keyframes dr{0%{stroke-dashoffset:260}45%,85%{stroke-dashoffset:0}100%{stroke-dashoffset:-260}}</style>
+<g fill="none" stroke="#A371F7" stroke-width="2.2" stroke-linejoin="round" class="dr">
+<path d="M340,62 Q400,50 460,62"/><path d="M354,84 H446"/><path d="M368,66 V168 M432,66 V168"/></g>
+<path d="M334,176 H466" stroke="#3B4856" stroke-width="2"/>
+<text x="22" y="80" style="font:700 22px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#E6EDF3;letter-spacing:-.5px">Beyond the Ordinary</text>
+<circle cx="27" cy="96" r="5" fill="#3178C6"/><text x="38" y="100" style="font:400 11.5px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99">TypeScript</text>
+<text x="22" y="118" style="font:400 13px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99">Editorial archive of Japanese design</text><text x="22" y="138" style="font:400 13px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99">and the people behind it.</text><rect x="22" y="172" width="68" height="24" rx="6" fill="#151E2A" stroke="#22303F"/><text x="56" y="188" text-anchor="middle" style="font:500 11.5px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#39D0D8">next.js</text><rect x="97.80000000000001" y="172" width="75" height="24" rx="6" fill="#151E2A" stroke="#22303F"/><text x="135" y="188" text-anchor="middle" style="font:500 11.5px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#39D0D8">research</text></g><rect x=".5" y=".5" width="489" height="219" rx="12" fill="none" stroke="#22303F"/>
 </svg>

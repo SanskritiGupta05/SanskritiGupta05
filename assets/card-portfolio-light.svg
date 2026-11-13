@@ -1,22 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 210" width="490" height="210" role="img" aria-label="Sanskriti — Portfolio">
-<defs><filter id="paper" x="0" y="0" width="100%" height="100%">
-  <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="7"/>
-  <feColorMatrix values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 .07 0"/>
-</filter><clipPath id="cc"><rect width="490" height="210" rx="16"/></clipPath></defs>
-<g clip-path="url(#cc)"><rect width="490" height="210" fill="#FBF8F2"/><rect width="490" height="210" filter="url(#paper)"/>
-<style>.sway{transform-origin:395px 20px;animation:sway 3.2s ease-in-out infinite}
-@keyframes sway{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
-.lg{animation:breathe 3s ease-in-out infinite}@keyframes breathe{50%{opacity:.35}}</style>
-<g class="sway"><line x1="395" y1="20" x2="395" y2="58" stroke="#1B1A18" stroke-width="2"/>
-<circle class="lg" cx="395" cy="110" r="62" fill="#F2C9A0" opacity=".18"/>
-<rect x="381" y="56" width="28" height="8" rx="2" fill="#1B1A18"/>
-<ellipse cx="395" cy="108" rx="36" ry="44" fill="#C8322B"/>
-<g stroke="#1B1A18" stroke-width="1.4" opacity=".35" fill="none"><ellipse cx="395" cy="108" rx="18" ry="44"/><line x1="360" y1="96" x2="430" y2="96"/><line x1="360" y1="120" x2="430" y2="120"/></g>
-<rect x="381" y="150" width="28" height="8" rx="2" fill="#1B1A18"/>
-<line x1="395" y1="158" x2="395" y2="176" stroke="#C8322B" stroke-width="2"/></g>
-<text x="26" y="42" style="font:600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:2px;fill:#C8322B">01 · 2026</text>
-<text x="26" y="80" style="font:400 27px Georgia, 'Times New Roman', serif;fill:#1B1A18">Sanskriti — Portfolio</text>
-<text x="26" y="112" style="font:400 14.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#6B645A">Washi paper by day, lantern light</text><text x="26" y="133" style="font:400 14.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#6B645A">by night. Pull the lantern to switch.</text><rect x="26" y="164" width="66" height="24" rx="12" fill="none" stroke="#DDD3C3"/><text x="59" y="180" text-anchor="middle" style="font:500 11.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#6B645A">Next.js</text><rect x="100.4" y="164" width="88" height="24" rx="12" fill="none" stroke="#DDD3C3"/><text x="144" y="180" text-anchor="middle" style="font:500 11.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#6B645A">TypeScript</text><rect x="196.4" y="164" width="52" height="24" rx="12" fill="none" stroke="#DDD3C3"/><text x="222" y="180" text-anchor="middle" style="font:500 11.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#6B645A">Figma</text>
-<text x="468" y="42" text-anchor="end" style="font:400 16px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#6B645A">↗</text></g>
-<rect x=".5" y=".5" width="489" height="209" rx="16" fill="none" stroke="#DDD3C3"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 220" width="490" height="220" role="img" aria-label="Portfolio">
+<defs>
+<linearGradient id="grad" x1="0" x2="1"><stop offset="0" stop-color="#39D0D8"/><stop offset="1" stop-color="#A371F7"/></linearGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#16212D" stroke-width="1"/></pattern>
+<clipPath id="frame"><rect width="490" height="220" rx="12"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="490" height="220" fill="#0B0F14"/><rect width="490" height="220" fill="url(#grid)" opacity=".6"/>
+<rect width="490" height="30" fill="#151E2A"/>
+<text x="16" y="20" style="font:500 11.5px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99"><tspan fill="#3FB950">~/</tspan>sanskriti-portfolio</text>
+<text x="474" y="20" text-anchor="end" style="font:500 11.5px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99">↗</text>
+<style>.sway{transform-origin:400px 46px;animation:sway 3.2s ease-in-out infinite}@keyframes sway{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}</style>
+<g class="sway" fill="none" stroke-width="2"><line x1="400" y1="46" x2="400" y2="66" stroke="#3B4856"/>
+<ellipse cx="400" cy="112" rx="34" ry="42" stroke="#F778BA"/><ellipse cx="400" cy="112" rx="16" ry="42" stroke="#F778BA" opacity=".5"/>
+<rect x="386" y="64" width="28" height="7" rx="2" fill="#0F1620" stroke="#39D0D8"/><rect x="386" y="153" width="28" height="7" rx="2" fill="#0F1620" stroke="#39D0D8"/>
+<circle cx="400" cy="112" r="10" fill="#F778BA" stroke="none" opacity=".8"><animate attributeName="opacity" values=".8;.3;.8" dur="2.4s" repeatCount="indefinite"/></circle></g>
+<text x="22" y="80" style="font:700 22px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#E6EDF3;letter-spacing:-.5px">Portfolio</text>
+<circle cx="27" cy="96" r="5" fill="#3178C6"/><text x="38" y="100" style="font:400 11.5px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99">TypeScript</text>
+<text x="22" y="118" style="font:400 13px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99">Japanese-inspired portfolio: washi by</text><text x="22" y="138" style="font:400 13px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99">day, lantern light by night.</text><rect x="22" y="172" width="68" height="24" rx="6" fill="#151E2A" stroke="#0B0F14"/><text x="56" y="188" text-anchor="middle" style="font:500 11.5px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#39D0D8">next.js</text><rect x="97.80000000000001" y="172" width="53" height="24" rx="6" fill="#151E2A" stroke="#0B0F14"/><text x="124" y="188" text-anchor="middle" style="font:500 11.5px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#39D0D8">figma</text><rect x="158.8" y="172" width="60" height="24" rx="6" fill="#151E2A" stroke="#0B0F14"/><text x="189" y="188" text-anchor="middle" style="font:500 11.5px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#39D0D8">motion</text></g><rect x=".5" y=".5" width="489" height="219" rx="12" fill="none" stroke="#0B0F14"/>
 </svg>

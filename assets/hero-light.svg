@@ -1,46 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" role="img" aria-label="Sanskriti Gupta, product designer who codes her own ideas">
-<defs><filter id="paper" x="0" y="0" width="100%" height="100%">
-  <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="7"/>
-  <feColorMatrix values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 .07 0"/>
-</filter>
-<radialGradient id="g"><stop offset="0" stop-color="#F2C9A0" stop-opacity=".35"/><stop offset="1" stop-color="#F2C9A0" stop-opacity="0"/></radialGradient>
-<clipPath id="c"><rect width="1000" height="340" rx="20"/></clipPath></defs>
-<style>
-.enso{fill:none;stroke:#1B1A18;stroke-linecap:round;stroke-dasharray:800;stroke-dashoffset:800;animation:draw 2.2s cubic-bezier(.6,.05,.3,1) .2s forwards}
-.enso2{animation-duration:2.6s;animation-delay:.35s}
-@keyframes draw{to{stroke-dashoffset:0}}
-.sun{fill:#C8322B;transform-origin:190px 170px;transform:scale(0);animation:pop .9s cubic-bezier(.3,1.6,.5,1) 1.9s forwards}
-@keyframes pop{to{transform:scale(1)}}
-.glow{opacity:.4;transform-origin:190px 170px;animation:breathe 4s ease-in-out infinite}
-@keyframes breathe{50%{opacity:1;transform:scale(1.08)}}
-.fade{opacity:0;animation:in .8s ease-out forwards}
-@keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-.role{font:500 17px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#C8322B;opacity:0;animation:cycle 12s infinite}
-@keyframes cycle{0%{opacity:0;transform:translateY(8px)}4%,22%{opacity:1;transform:none}26%,100%{opacity:0;transform:translateY(-8px)}}
-.stamp{transform-origin:900px 268px;opacity:0;animation:stamp .5s cubic-bezier(.3,1.5,.5,1) 2.6s forwards}
-@keyframes stamp{from{opacity:0;transform:rotate(-8deg) scale(1.6)}to{opacity:.92;transform:rotate(-8deg) scale(1)}}
-.jp{font:14px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#6B645A;text-anchor:middle}
-.petal{fill:#C8322B;opacity:0;animation:fall 9s linear infinite}
-@keyframes fall{0%{opacity:0;transform:translate(0,0) rotate(0)}10%{opacity:.7}90%{opacity:.5}100%{opacity:0;transform:translate(-120px,260px) rotate(220deg)}}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400" role="img" aria-label="Terminal: Sanskriti Gupta, product designer and vibe coder">
+<defs>
+<linearGradient id="grad" x1="0" x2="1"><stop offset="0" stop-color="#39D0D8"/><stop offset="1" stop-color="#A371F7"/></linearGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#16212D" stroke-width="1"/></pattern>
+<clipPath id="frame"><rect width="1000" height="400" rx="14"/></clipPath>
+</defs><style>
+.cur{animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
+.wire{animation:wire 6s ease-in-out infinite}@keyframes wire{0%,100%{opacity:1}50%{opacity:.35}}
+.code{opacity:0;animation:code 6s ease-out infinite}
+@keyframes code{0%{opacity:0;transform:translateX(-6px)}8%,80%{opacity:1;transform:none}92%,100%{opacity:0}}
+.arrow{animation:arr 1.5s ease-in-out infinite}@keyframes arr{50%{transform:translateY(4px)}}
+.pulse{animation:pulse 1.6s ease-in-out infinite}@keyframes pulse{50%{opacity:.25}}
 </style>
-<g clip-path="url(#c)">
-<rect width="1000" height="340" fill="#F3EDE2"/>
-<rect width="1000" height="340" filter="url(#paper)"/>
-
-<path class="enso" d="M226.9,68.5 L233.4,70.9 L239.8,73.7 L246.0,76.9 L251.9,80.5 L257.7,84.4 L263.1,88.8 L268.3,93.5 L273.1,98.6 L277.6,104.0 L281.8,109.6 L285.6,115.6 L288.9,121.8 L291.9,128.2 L294.4,134.7 L296.4,141.5 L298.0,148.4 L299.1,155.3 L299.8,162.3 L300.0,169.4 L299.7,176.4 L298.9,183.4 L297.7,190.3 L296.0,197.1 L293.9,203.8 L291.4,210.3 L288.4,216.6 L285.0,222.7 L281.3,228.5 L277.2,234.1 L272.7,239.4 L268.0,244.4 L262.9,249.1 L257.5,253.4 L252.0,257.4 L246.1,261.0 L240.1,264.2 L233.9,267.1 L227.5,269.5 L221.1,271.6 L214.5,273.3 L207.8,274.5 L201.1,275.4 L194.3,275.8 L187.5,275.8 L180.8,275.4 L174.0,274.6 L167.4,273.4 L160.8,271.8 L154.3,269.8 L148.0,267.4 L141.8,264.7 L135.7,261.5 L129.9,258.0 L124.3,254.1 L118.9,249.9 L113.8,245.3 L109.0,240.4 L104.5,235.2 L100.3,229.7 L96.5,224.0 L93.0,218.0 L89.9,211.8 L87.3,205.4 L85.0,198.8 L83.2,192.1 L81.8,185.2 L80.9,178.3 L80.4,171.3 L80.4,164.3 L80.9,157.2 L81.8,150.3 L83.2,143.4 L85.1,136.6 L87.4,129.9 L90.2,123.4 L93.4,117.2 L97.0,111.1 L101.0,105.3 L105.3,99.8 L110.1,94.6 L115.2,89.7 L120.5,85.2 L126.2,81.1 L132.1,77.3 L138.2,74.0 L144.6,71.1 L151.1,68.6 L157.7,66.5 L164.4,64.8 L171.2,63.6" stroke-width="15" opacity=".92"/>
-<path class="enso enso2" d="M247.5,70.4 L253.4,73.6 L259.1,77.2 L264.6,81.1 L269.9,85.3 L274.9,89.9 L279.6,94.8 L284.1,99.9 L288.2,105.4 L292.0,111.1 L295.4,117.0 L298.5,123.2 L301.1,129.5 L303.4,136.0 L305.2,142.7 L306.7,149.4 L307.6,156.3 L308.2,163.1 L308.3,170.0 L308.0,176.9 L307.2,183.7 L306.0,190.5 L304.4,197.1 L302.4,203.6 L300.0,210.0 L297.2,216.2 L294.0,222.2 L290.5,228.0 L286.7,233.6 L282.5,238.9 L278.1,243.9 L273.4,248.7 L268.4,253.1 L263.2,257.3 L257.8,261.1 L252.2,264.6 L246.5,267.8 L240.6,270.7 L234.5,273.2 L228.4,275.4 L222.1,277.3 L215.8,278.8 L209.4,280.0 L203.0,280.9 L196.5,281.4 L190.0,281.6 L183.5,281.4 L177.0,280.9 L170.6,280.0 L164.2,278.8 L157.9,277.3 L151.6,275.4 L145.5,273.2 L139.4,270.7 L133.5,267.8 L127.8,264.6 L122.2,261.1 L116.8,257.3 L111.6,253.1 L106.6,248.7 L101.9,243.9 L97.5,238.9 L93.3,233.6 L89.5,228.0 L86.0,222.2 L82.8,216.2 L80.0,210.0 L77.6,203.6 L75.6,197.1 L74.0,190.5 L72.8,183.7 L72.0,176.9 L71.7,170.0 L71.8,163.1 L72.4,156.3 L73.3,149.4 L74.8,142.7 L76.6,136.0 L78.9,129.5 L81.5,123.2 L84.6,117.0 L88.0,111.1 L91.8,105.4 L95.9,99.9 L100.4,94.8 L105.1,89.9 L110.1,85.3 L115.4,81.1 L120.9,77.2 L126.6,73.6 L132.5,70.4" stroke-width="4" opacity=".45"/>
-<circle class="sun" cx="190" cy="170" r="36"/>
-<ellipse class="petal" cx="640" cy="-10" rx="5" ry="3"/>
-<ellipse class="petal" cx="820" cy="-10" rx="4" ry="2.5" style="animation-delay:3s"/>
-<ellipse class="petal" cx="520" cy="-10" rx="3.5" ry="2" style="animation-delay:6s"/>
-<g class="fade" style="animation-delay:.6s"><text x="380" y="96" style="font:600 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;letter-spacing:3px;fill:#6B645A">CS GRADUATE  →  PRODUCT DESIGNER  →  VIBE CODER</text></g>
-<g class="fade" style="animation-delay:.9s"><text x="376" y="168" style="font:400 64px Georgia, 'Times New Roman', serif;fill:#1B1A18;letter-spacing:-1px">Sanskriti Gupta</text></g>
-<g class="fade" style="animation-delay:1.2s"><text x="380" y="210" style="font:italic 400 22px Georgia, 'Times New Roman', serif;fill:#6B645A">a product designer who codes her own ideas.</text></g>
-<line x1="380" y1="232" x2="440" y2="232" stroke="#C8322B" stroke-width="2" class="fade" style="animation-delay:1.4s"/>
-<text class="role" style="animation-delay:0s" x="380" y="262">→ designing in Figma</text><text class="role" style="animation-delay:3s" x="380" y="262">→ vibe coding with Claude Code</text><text class="role" style="animation-delay:6s" x="380" y="262">→ shipping on Vercel</text><text class="role" style="animation-delay:9s" x="380" y="262">→ sketching on paper</text>
-<g class="stamp"><rect x="872" y="240" width="56" height="56" rx="8" fill="#C8322B"/>
-<text x="900" y="279" text-anchor="middle" style="font:700 30px Georgia, 'Times New Roman', serif;fill:#F3EDE2">創</text></g>
-<text x="952" y="70" class="jp">デ</text><text x="952" y="96" class="jp">ザ</text><text x="952" y="122" class="jp">イ</text><text x="952" y="148" class="jp">ン</text><text x="952" y="174" class="jp">と</text><text x="952" y="200" class="jp">コ</text><text x="952" y="226" class="jp">ー</text><text x="952" y="252" class="jp">ド</text>
+<g clip-path="url(#frame)"><rect width="1000" height="400" fill="#0B0F14"/>
+<rect width="1000" height="400" fill="url(#grid)" opacity=".7"/>
+<rect width="1000" height="34" fill="#151E2A"/>
+<circle cx="20" cy="17" r="6" fill="#FF5F57"/><circle cx="40" cy="17" r="6" fill="#FEBC2E"/><circle cx="60" cy="17" r="6" fill="#28C840"/>
+<text x="500.0" y="22" text-anchor="middle" style="font:500 12px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99">sanskriti@github: ~/profile — zsh</text>
+<g opacity="0"><set attributeName="opacity" to="1" begin="0.4s" fill="freeze"/><text x="32" y="78" style="font:500 15px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#3FB950">❯</text></g><clipPath id="t56087039"><rect x="52" y="58" width="0" height="28"><animate attributeName="width" from="0" to="62" begin="0.4s" dur="0.27s" fill="freeze" calcMode="discrete" values="0;10;21;31;41;51;62"/></rect></clipPath>
+<text x="52" y="78" clip-path="url(#t56087039)" style="font:500 15px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#E6EDF3">whoami</text><g opacity="0"><set attributeName="opacity" to="1" begin="0.9700000000000001s" fill="freeze"/><text x="50" y="118" style="font:700 44px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:url(#grad);letter-spacing:-1px">Sanskriti Gupta</text></g><g opacity="0"><set attributeName="opacity" to="1" begin="1.27s" fill="freeze"/><text x="32" y="156" style="font:500 15px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#3FB950">❯</text></g><clipPath id="t65448774"><rect x="52" y="136" width="0" height="28"><animate attributeName="width" from="0" to="119" begin="1.27s" dur="0.54s" fill="freeze" calcMode="discrete" values="0;10;20;30;40;50;60;70;79;89;99;109;119"/></rect></clipPath>
+<text x="52" y="156" clip-path="url(#t65448774)" style="font:500 15px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#E6EDF3">cat role.txt</text><g opacity="0"><set attributeName="opacity" to="1" begin="2.1100000000000003s" fill="freeze"/><text x="52" y="182" style="font:500 15px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#39D0D8">Product Designer  ·  Vibe Coder  ·  CS Graduate</text></g><g opacity="0"><set attributeName="opacity" to="1" begin="2.2900000000000005s" fill="freeze"/><text x="32" y="208" style="font:500 15px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#3FB950">❯</text></g><clipPath id="t7924263"><rect x="52" y="188" width="0" height="28"><animate attributeName="width" from="0" to="330" begin="2.2900000000000005s" dur="1.53s" fill="freeze" calcMode="discrete" values="0;10;19;29;39;49;58;68;78;87;97;107;117;126;136;146;155;165;175;185;194;204;214;224;233;243;253;262;272;282;292;301;311;321;330"/></rect></clipPath>
+<text x="52" y="208" clip-path="url(#t7924263)" style="font:500 15px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#E6EDF3">git log --oneline --reverse career</text><g opacity="0"><set attributeName="opacity" to="1" begin="4.120000000000001s" fill="freeze"/><text x="52" y="234" style="font:400 14px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"><tspan fill="#E3B341">3c9e0aa</tspan><tspan fill="#7D8B99">  init: bachelor's in computer science (C++, DSA)</tspan></text></g><g opacity="0"><set attributeName="opacity" to="1" begin="4.320000000000001s" fill="freeze"/><text x="52" y="256" style="font:400 14px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"><tspan fill="#E3B341">7b2d4e1</tspan><tspan fill="#7D8B99">  feat: switched to product design</tspan></text></g><g opacity="0"><set attributeName="opacity" to="1" begin="4.520000000000001s" fill="freeze"/><text x="52" y="278" style="font:400 14px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"><tspan fill="#E3B341">a1f3c9e</tspan><tspan fill="#7D8B99">  feat: vibe coding my designs with Claude Code</tspan></text></g><g opacity="0"><set attributeName="opacity" to="1" begin="4.7200000000000015s" fill="freeze"/><text x="32" y="306" style="font:500 15px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#3FB950">❯</text></g><clipPath id="t77326409"><rect x="52" y="286" width="0" height="28"><animate attributeName="width" from="0" to="110" begin="4.7200000000000015s" dur="0.495s" fill="freeze" calcMode="discrete" values="0;10;20;30;40;50;60;70;80;90;100;110"/></rect></clipPath>
+<text x="52" y="306" clip-path="url(#t77326409)" style="font:500 15px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#E6EDF3">echo $STACK</text><g opacity="0"><set attributeName="opacity" to="1" begin="5.5150000000000015s" fill="freeze"/><text x="52" y="332" style="font:500 14px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#A371F7">figma  ·  next.js  ·  typescript  ·  framer-motion  ·  claude-code</text></g><g opacity="0"><set attributeName="opacity" to="1" begin="5.695000000000001s" fill="freeze"/><text x="32" y="358" style="font:500 15px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#3FB950">❯</text><rect class="cur" x="52" y="344" width="9" height="18" fill="#E6EDF3"/></g><g transform="translate(640,56)">
+<rect width="330" height="312" rx="10" fill="#0F1620" stroke="#0B0F14"/>
+<text x="16" y="26" style="font:500 11px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#7D8B99;letter-spacing:1.5px">DESIGN.fig  →  page.tsx</text>
+<g class="wire" fill="none" stroke="#A371F7" stroke-width="1.5" stroke-dasharray="4 3">
+<rect x="16" y="42" width="298" height="22" rx="4"/><rect x="16" y="72" width="140" height="78" rx="4"/>
+<rect x="166" y="72" width="148" height="36" rx="4"/><rect x="166" y="114" width="148" height="36" rx="4"/></g>
+<text x="20" y="57" class="wire" style="font:500 10px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#A371F7">Frame · Hero</text>
+<path d="M165 166 v16 m-6 -6 l6 6 l6 -6" stroke="#39D0D8" stroke-width="2" fill="none" class="arrow"/>
+<g style="font:400 12px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+<g class="code" style="animation-delay:1.20s"><text x="16" y="208"><tspan fill="#F778BA">export default</tspan> <tspan fill="#39D0D8">function</tspan> <tspan fill="#E3B341">Hero</tspan><tspan fill="#E6EDF3">() {</tspan></text></g><g class="code" style="animation-delay:1.45s"><text x="16" y="226"><tspan fill="#E6EDF3">  </tspan><tspan fill="#F778BA">return</tspan><tspan fill="#E6EDF3"> &lt;</tspan><tspan fill="#3FB950">motion.section</tspan></text></g><g class="code" style="animation-delay:1.70s"><text x="16" y="244"><tspan fill="#A371F7">    animate</tspan><tspan fill="#E6EDF3">={{ opacity: </tspan><tspan fill="#E3B341">1</tspan><tspan fill="#E6EDF3"> }}&gt;</tspan></text></g><g class="code" style="animation-delay:1.95s"><text x="16" y="262"><tspan fill="#7D8B99">    // pixel-perfect, no hand-off</tspan></text></g><g class="code" style="animation-delay:2.20s"><text x="16" y="280"><tspan fill="#E6EDF3">  &lt;/</tspan><tspan fill="#3FB950">motion.section</tspan><tspan fill="#E6EDF3">&gt;</tspan></text></g><g class="code" style="animation-delay:2.45s"><text x="16" y="298"><tspan fill="#E6EDF3">}</tspan></text></g>
 </g>
-<rect x=".5" y=".5" width="999" height="339" rx="20" fill="none" stroke="#DDD3C3"/>
+<circle cx="22" cy="298" r="4" fill="#3FB950" class="pulse"/>
+<text x="32" y="302" style="font:500 11px 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#3FB950">build passing · deployed to vercel</text>
+</g></g><rect x=".5" y=".5" width="999" height="399" rx="14" fill="none" stroke="#0B0F14"/>
 </svg>

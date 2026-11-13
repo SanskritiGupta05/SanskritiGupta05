@@ -5,20 +5,20 @@
   <img src="./assets/hero-light.svg" alt="Sanskriti Gupta, a product designer who codes her own ideas" width="100%" />
 </picture>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2800&pause=900&color=C8322B&center=true&vCenter=true&width=620&lines=Designing+in+Figma+%E2%9C%A6+building+it+myself;From+C%2B%2B+and+DSA+to+design+and+vibe+coding;If+I+can+design+it%2C+I+can+build+it" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2600&pause=900&color=39D0D8&center=true&vCenter=true&width=620&lines=%3E+designing+in+Figma...;%3E+vibe+coding+with+Claude+Code...;%3E+npm+run+ship+%E2%9C%93;%3E+if+I+can+design+it%2C+I+can+build+it" alt="Typing intro" />
 
-<a href="https://www.linkedin.com/in/sanskritiguptaa/"><img src="https://img.shields.io/badge/LinkedIn-1B1A18?style=flat-square&logo=linkedin&logoColor=white" /></a>
-<a href="https://twitter.com/GuptaSanskritii"><img src="https://img.shields.io/badge/X-1B1A18?style=flat-square&logo=x&logoColor=white" /></a>
-<a href="https://www.instagram.com/sanskritixart/"><img src="https://img.shields.io/badge/Art_on_Instagram-1B1A18?style=flat-square&logo=instagram&logoColor=white" /></a>
-<a href="https://sanskritigupta.hashnode.dev/"><img src="https://img.shields.io/badge/Blog-1B1A18?style=flat-square&logo=hashnode&logoColor=white" /></a>
-<a href="mailto:sanskritigupta0005@gmail.com"><img src="https://img.shields.io/badge/Say_hi-C8322B?style=flat-square&logo=gmail&logoColor=white" /></a>
-<img src="https://komarev.com/ghpvc/?username=SanskritiGupta05&label=visitors&color=1B1A18&style=flat-square" />
+<a href="https://www.linkedin.com/in/sanskritiguptaa/"><img src="https://img.shields.io/badge/LinkedIn-0B0F14?style=for-the-badge&logo=linkedin&logoColor=39D0D8" /></a>
+<a href="https://twitter.com/GuptaSanskritii"><img src="https://img.shields.io/badge/X-0B0F14?style=for-the-badge&logo=x&logoColor=39D0D8" /></a>
+<a href="https://www.instagram.com/sanskritixart/"><img src="https://img.shields.io/badge/Art_on_Instagram-0B0F14?style=for-the-badge&logo=instagram&logoColor=39D0D8" /></a>
+<a href="https://sanskritigupta.hashnode.dev/"><img src="https://img.shields.io/badge/Blog-0B0F14?style=for-the-badge&logo=hashnode&logoColor=39D0D8" /></a>
+<a href="mailto:sanskritigupta0005@gmail.com"><img src="https://img.shields.io/badge/Say_hi-A371F7?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<img src="https://komarev.com/ghpvc/?username=SanskritiGupta05&label=visitors&color=39D0D8&style=for-the-badge&abbreviated=true" />
 
 </div>
 
 <br/>
 
-## 🌸 &nbsp;About me
+## `>_` &nbsp;about.ts
 
 ```ts
 const sanskriti = {
@@ -35,7 +35,7 @@ I used to write code for grades. Now I design products, and I **vibe code** the 
 
 <br/>
 
-## 🧭 &nbsp;How I work now
+## `⚙` &nbsp;how-i-work.yml
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/process-dark.svg" />
@@ -44,7 +44,7 @@ I used to write code for grades. Now I design products, and I **vibe code** the 
 
 <br/>
 
-## 🏮 &nbsp;Things I've made
+## `{}` &nbsp;~/projects
 
 <div align="center">
 
@@ -89,24 +89,24 @@ I used to write code for grades. Now I design products, and I **vibe code** the 
 
 <br/>
 
-## 🛠️ &nbsp;Toolkit
+## `</>` &nbsp;stack
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**Now: design + vibe coding**
+**`$ now`** &nbsp;design + vibe coding
 
-<img src="https://skillicons.dev/icons?i=figma,nextjs,ts,react,tailwind,vercel,git&perline=7" />
+<img src="https://skillicons.dev/icons?theme=dark&i=figma,nextjs,ts,react,tailwind,vercel,git&perline=7" />
 
-<img src="https://img.shields.io/badge/Claude_Code-1B1A18?style=flat-square&logo=claude&logoColor=white" /> <img src="https://img.shields.io/badge/Framer_Motion-1B1A18?style=flat-square&logo=framer&logoColor=white" />
+<img src="https://img.shields.io/badge/Claude_Code-0B0F14?style=for-the-badge&logo=claude&logoColor=39D0D8" /> <img src="https://img.shields.io/badge/Framer_Motion-0B0F14?style=for-the-badge&logo=framer&logoColor=39D0D8" />
 
 </td>
 <td width="50%" valign="top">
 
-**Then: my CS days**
+**`$ git log --before=design`** &nbsp;CS days
 
-<img src="https://skillicons.dev/icons?i=cpp,java,py,js,django,nodejs,express,php&perline=8" />
+<img src="https://skillicons.dev/icons?theme=dark&i=cpp,java,py,js,django,nodejs,express,php&perline=8" />
 
 <sub>DSA · LeetCode · open source · technical blogging</sub>
 
@@ -115,7 +115,7 @@ I used to write code for grades. Now I design products, and I **vibe code** the 
 </table>
 
 <details>
-<summary><b>🎓 &nbsp;More from my CS student days</b></summary>
+<summary><b><code>cd ~/cs-days</code> &nbsp;more from my CS student days</b></summary>
 <br/>
 
 - [**DSA**](https://github.com/SanskritiGupta05/DSA) and [**LeetCode Submissions**](https://github.com/SanskritiGupta05/LeetCode-Submissions): interview prep, one problem at a time
@@ -127,13 +127,13 @@ I used to write code for grades. Now I design products, and I **vibe code** the 
 
 <br/>
 
-## 📈 &nbsp;Activity
+## `▲` &nbsp;git activity
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=SanskritiGupta05&background=161412&border=2C2926&stroke=2C2926&ring=E04A3A&fire=E04A3A&currStreakNum=EDE6D8&sideNums=EDE6D8&currStreakLabel=E04A3A&sideLabels=9A9183&dates=9A9183&border_radius=16" />
-  <img src="https://streak-stats.demolab.com?user=SanskritiGupta05&background=FBF8F2&border=DDD3C3&stroke=DDD3C3&ring=C8322B&fire=C8322B&currStreakNum=1B1A18&sideNums=1B1A18&currStreakLabel=C8322B&sideLabels=6B645A&dates=6B645A&border_radius=16" alt="GitHub streak" width="70%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=SanskritiGupta05&background=0B0F14&border=22303F&stroke=22303F&ring=39D0D8&fire=A371F7&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=39D0D8&sideLabels=7D8B99&dates=7D8B99&border_radius=16" />
+  <img src="https://streak-stats.demolab.com?user=SanskritiGupta05&background=0B0F14&border=0B0F14&stroke=22303F&ring=39D0D8&fire=A371F7&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=39D0D8&sideLabels=7D8B99&dates=7D8B99&border_radius=16" alt="GitHub streak" width="70%" />
 </picture>
 
 <br/><br/>
