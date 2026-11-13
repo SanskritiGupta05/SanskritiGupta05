@@ -44,51 +44,6 @@ I used to write code for grades. Now I design products, and I **vibe code** the 
 
 <br/>
 
-## `{}` &nbsp;~/projects
-
-<div align="center">
-
-<a href="https://github.com/SanskritiGupta05/sanskriti-portfolio">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-card-portfolio-dark.svg" />
-  <img src="./assets/tech-card-portfolio-light.svg" alt="Sanskriti Portfolio" width="49%" />
-</picture>
-</a>
-<a href="https://github.com/SanskritiGupta05/beyond-the-ordinary">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-card-beyond-dark.svg" />
-  <img src="./assets/tech-card-beyond-light.svg" alt="Beyond the Ordinary" width="49%" />
-</picture>
-</a>
-<a href="https://inkwork-press.vercel.app">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-card-inkwork-dark.svg" />
-  <img src="./assets/tech-card-inkwork-light.svg" alt="Inkwork Press" width="49%" />
-</picture>
-</a>
-<a href="https://github.com/SanskritiGupta05/glitchbox">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-card-glitchbox-dark.svg" />
-  <img src="./assets/tech-card-glitchbox-light.svg" alt="GlitchBox" width="49%" />
-</picture>
-</a>
-<a href="https://github.com/SanskritiGupta05/spider-verse-cards">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-card-cards-dark.svg" />
-  <img src="./assets/tech-card-cards-light.svg" alt="Spider-Verse Cards" width="49%" />
-</picture>
-</a>
-<a href="https://github.com/SanskritiGupta05/AniQuotes-Chrome-Extension">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-card-aniquotes-dark.svg" />
-  <img src="./assets/tech-card-aniquotes-light.svg" alt="AniQuotes" width="49%" />
-</picture>
-</a>
-
-</div>
-
-<br/>
-
 ## `</>` &nbsp;stack
 
 <table>
